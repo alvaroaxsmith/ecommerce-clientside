@@ -1,0 +1,15 @@
+:root{
+    --main-background-color : #FFF;
+    --aside-container-background-color : #DCDCDC;
+    --code-font-size : 1.1rem;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.exemple-of-using-var{
+    background-color: var(--aside-container-background-color);
+    font-size: var(--code-font-size);
+}
