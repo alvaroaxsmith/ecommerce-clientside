@@ -107,6 +107,8 @@
     "eslint": "^8.29.0"
   },
   "scripts": {
+    "lintfix" : "./node_modules/.bin/eslint . --fix",
+    "lint": "./node_modules/.bin/eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
