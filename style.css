@@ -1,7 +1,6 @@
 .footer-container {
     display: flex;
     align-content: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     height: 150px;
@@ -10,15 +9,19 @@
     border-top: 1px black solid;
 }
 
-.h2-footer-01 {
-    font-size: 15px;
+.div-footer-01 {
+    padding-left: 5%;
 }
 
 .div-footer-02 {
-    padding-left: 35%;
+    padding-left: 30%;
 }
 
 .div-footer-03 {
-    position: fixed;
     bottom: 0;
+    padding-left: 5%;
+}
+
+.h2-footer-01 {
+    font-size: 15px;
 }
