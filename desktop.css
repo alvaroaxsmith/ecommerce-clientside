@@ -1,0 +1,13 @@
+@media(min-width:575px) {
+    .side-btn{
+        display: none;
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+    }
+    main .side-container{
+        width: 35%;
+    }
+}
