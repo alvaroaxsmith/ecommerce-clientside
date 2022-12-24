@@ -6,13 +6,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="configs.css">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" href="desktop.css">
+        <script src="script.js"></script>
         <title>E-commerce</title>
     </head>
     <body>
         <header>
         </header>
         <main>
-            <code class="exemple-of-using-var">exemplo de uso de var(--aside-container-background-color)</code>
+            <div class="side-container">
+                <button class="side-btn" id="open-filter" onclick="openPopup('filter-popup')">
+                    Filtrar
+                    <img src="assets/icons/chevron-down-icon.svg" alt="chevron down icon">
+                </button>
+                <div class="default" id="filter-popup" role="alert">
+                    <div class="header-popup">
+                        <h3>FILTRAR</h3>
+                        <button class="side-btn" id="close-filter" onclick="openPopup('filter-popup')">
+                            <img src="assets/icons/close-icon.svg" alt="close icon">
+                        </button>
+                    </div>
+                    <div class="forms">
+                        <p>filters checkbox here!</p>
+                    </div>
+                </div>
+                <button class="side-btn" id="open-order" onclick="openPopup('order-popup')">
+                    Ordenar
+                    <img src="assets/icons/chevron-down-icon.svg" alt="chevron down icon">
+                </button>
+                <div class="default" id="order-popup" role="alert">
+                    <div class="header-popup">
+                        <h3>ORDENAR</h3>
+                        <button class="side-btn" id="close-order" onclick="openPopup('order-popup')">
+                            <img src="assets/icons/close-icon.svg" alt="close icon">
+                        </button>
+                    </div>
+                    <div class="forms">
+                        <p>order options here!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+            </div>
         </main>
         <footer>
         </footer>
