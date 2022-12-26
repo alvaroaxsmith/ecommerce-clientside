@@ -1,0 +1,27 @@
+.footer-container {
+    display: flex;
+    align-content: center;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+    padding-top: 3%;
+    width: 100%;
+    border-top: 1px black solid;
+}
+
+.div-footer-01 {
+    padding-left: 5%;
+}
+
+.div-footer-02 {
+    padding-left: 30%;
+}
+
+.div-footer-03 {
+    bottom: 0;
+    padding-left: 5%;
+}
+
+.h2-footer-01 {
+    font-size: 15px;
+}
