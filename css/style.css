@@ -1,3 +1,77 @@
+.toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    gap: 0.1rem;
+    padding: 0.2rem;
+}
+
+.toolbar>button{
+    font-size: 1rem;
+    background-color: transparent;
+    border: 0;
+    text-transform: capitalize;
+    position: relative;
+}
+.toolbar>button::after{
+    content: '';
+    /* required */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* positioned at the bottom */
+    width: 0;
+    height: 1px;
+    background-color: black;
+    /* no height to start */
+}
+
+.toolbar>button:hover:after{
+    transition: width .5s ease;
+    width: 100%;
+}
+
+.modal{
+    background-color: var(--primary-color);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.modal.inactive{
+    visibility: hidden;
+}
+
+.modal button{
+    background-color: var(--fourth-color);
+    color: var(--primary-color);
+}
+
+.modal>header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.modal>header>h2{
+    font-size:2.5rem;
+    text-transform: capitalize;
+}
+
+.modal>header>button{
+    border: 0;
+    background-color: transparent;
+}
+
+.modal button>img{
+    width: 2rem;
+    height: auto;
+}
+
 .footer-container {
     display: flex;
     align-content: center;
