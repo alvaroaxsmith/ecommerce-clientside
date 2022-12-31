@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+/* Remove default border */
+fieldset {
+  border: 0;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -13,6 +18,7 @@ h3,
 h4,
 p,
 figure,
+fieldset,
 blockquote,
 dl,
 dd {
