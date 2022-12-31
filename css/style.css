@@ -16,19 +16,17 @@
 }
 .toolbar>button::after{
     content: '';
-    /* required */
     position: absolute;
     bottom: 0;
     left: 0;
-    /* positioned at the bottom */
     width: 0;
     height: 1px;
     background-color: black;
-    /* no height to start */
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    transition-duration: .25s;
 }
 
 .toolbar>button:hover:after{
-    transition: width .5s ease;
     width: 100%;
 }
 
