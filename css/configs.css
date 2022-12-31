@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root{
-    --main-background-color : #FFF;
-    --aside-container-background-color : #DCDCDC;
-    --code-font-size : 1.1rem;
+    --primary-color : #FFF;
+    --secondary-color : #DCDCDC;
 }
 
 *{
     font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
-}
-
-.exemple-of-using-var{
-    background-color: var(--aside-container-background-color);
-    font-size: var(--code-font-size);
 }
