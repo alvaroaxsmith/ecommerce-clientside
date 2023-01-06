@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+ }
+ 
+.header-input-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-input-button input {
+  margin-top: 2vh;
+  width: 32vh;
+  margin-left: 4vh;
+  border-radius: 7px ;
+}
+
+.header-input-button button {
+  width:4vh;
+  border-radius: 7px ;
+}
+=======
 .footer-container {
     display: flex;
     align-content: center;
@@ -25,3 +51,4 @@
 .h2-footer-01 {
     font-size: 15px;
 }
+>>>>>>> a8bb1e9617fa4d4ef2bae7239978e1bc497a3f4f
