@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --primary-color : #FFF;
+    --secondary-color : #DCDCDC;
+    --third-color: #666666;
+    --fourth-color: #000;
+}
+
+*{
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
