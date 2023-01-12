@@ -1,131 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/configs.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/configs.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>E-commerce</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="toolbar">
-            <button id="open-filter">filtro</button>
-            <button id="open-order">ordenar</button>
+      <div class="header-container">
+        <div class="header-logo"><img src=assets/img/logo-m3.png></div>
+        <div class="header-carrinho">
+          <img
+            src="https://img.icons8.com/material/24/null/shopping-cart--v1.png"
+          />
         </div>
+      </div>
+      <div class="header-input-button">
+        <input type="text" />
+        <button type="submit">
+          <img src="./assets/icons/buscar-icon.png" />
+        </button>
+      </div>
+      <div class="toolbar">
+        <button id="open-filter">filtro</button>
+        <button id="open-order">ordenar</button>
+      </div>
     </header>
     <main>
-        <aside>
-            <fieldset id="filter" class="modal inactive">
-                <header>
-                    <h2>filtro</h2>
-                    <button id="close-filter">
-                        <img src="./assets/icons/close-icon.svg" alt="X">
-                    </button>
-                </header>
-                <p>here options</p>
-                <button disabled="disabled" type="submit">Aplicar</button>
-            </fieldset>
-            <fieldset id="order" class="modal inactive">
-                <header>
-                    <h2>ordenar</h2>
-                    <button id="close-order">
-                        <img src="./assets/icons/close-icon.svg" alt="X">
-                    </button>
-                </header>
-                <p>here options</p>
-                <button disabled="disabled" type="submit">Aplicar</button>
-            </fieldset>
-        </aside>
-        <div class="cards-container">
-            <div class="card">
-                <img src="assets/img/img_3.png">
-                <p>SAIA EM COURO</p>
-                <p><b>$ 398,00</b></p>
-                <p> até 10x de R$39.80</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/img_2.png">
-                <p>CAMISETA MESCLA</p>
-                <p><b>R$ 28,00</b></p>
-                <p> até 3x de R$9.33</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/img_4.png">
-                <p>CARDIGAN TIGRE</p>
-                <p><b>R$ 398,00</b></p>
-                <p> até 3x de R$39.80</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/img_5.png">
-                <p>CARDIGAN OFF WHITE</p>
-                <p><b>R$ 99,90</b></p>
-                <p> até 3x de R$33.30</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/img_6.png">
-                <p>BODY LEOPARDO</p>
-                <p><b>R$ 129,90</b></p>
-                <p> até 3x de R$43.43</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/img_7.png">
-                <p>CASACO PELOS</p>
-                <p><b>R$ 398,00</b></p>
-                <p> até 10x de R$39.80</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/img_8.png">
-                <p>CROPPED STRIPES</p>
-                <p><b>R$ 120,00</b></p>
-                <p> até 3x de R$40.00</p>
-                <button class="btn-card">COMPRAR</button>
-            </div>
+      <aside>
+        <fieldset id="filter" class="modal inactive">
+          <header>
+            <h2>filtro</h2>
+            <button id="close-filter">
+              <img src="./assets/icons/close-icon.svg" alt="X" />
+            </button>
+          </header>
+          <p>here options</p>
+          <button disabled="disabled" type="submit">Aplicar</button>
+        </fieldset>
+        <fieldset id="order" class="modal inactive">
+          <header>
+            <h2>ordenar</h2>
+            <button id="close-order">
+              <img src="./assets/icons/close-icon.svg" alt="X" />
+            </button>
+          </header>
+          <p>here options</p>
+          <button disabled="disabled" type="submit">Aplicar</button>
+        </fieldset>
+      </aside>
+      <div class="cards-container">
+        <div class="card">
+          <img src="assets/img/img_3.png" />
+          <p>SAIA EM COURO</p>
+          <p><b>$ 398,00</b></p>
+          <p>até 10x de R$39.80</p>
+          <button class="btn-card">COMPRAR</button>
         </div>
+        <div class="card">
+          <img src="assets/img/img_2.png" />
+          <p>CAMISETA MESCLA</p>
+          <p><b>R$ 28,00</b></p>
+          <p>até 3x de R$9.33</p>
+          <button class="btn-card">COMPRAR</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/img_4.png" />
+          <p>CARDIGAN TIGRE</p>
+          <p><b>R$ 398,00</b></p>
+          <p>até 3x de R$39.80</p>
+          <button class="btn-card">COMPRAR</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/img_5.png" />
+          <p>CARDIGAN OFF WHITE</p>
+          <p><b>R$ 99,90</b></p>
+          <p>até 3x de R$33.30</p>
+          <button class="btn-card">COMPRAR</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/img_6.png" />
+          <p>BODY LEOPARDO</p>
+          <p><b>R$ 129,90</b></p>
+          <p>até 3x de R$43.43</p>
+          <button class="btn-card">COMPRAR</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/img_7.png" />
+          <p>CASACO PELOS</p>
+          <p><b>R$ 398,00</b></p>
+          <p>até 10x de R$39.80</p>
+          <button class="btn-card">COMPRAR</button>
+        </div>
+        <div class="card">
+          <img src="assets/img/img_8.png" />
+          <p>CROPPED STRIPES</p>
+          <p><b>R$ 120,00</b></p>
+          <p>até 3x de R$40.00</p>
+          <button class="btn-card">COMPRAR</button>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="footer-container">
-            <div class="div-footer-01">
-                <div>
-                    <h2 class="h2-footer-01">
-                        E-commerce
-                    </h2>
-                    <p>
-                        Av. ######### <br>
-                    </p>
-                    <p>
-                        Edifício $$$$$$$
-                    </p>
-                    <p>
-                        Cep 78954-00& <br>
-                    </p>
-                </div>
-            </div>
-            <div class="div-footer-02">
-                <div>
-                    <h4>Sobre Nós</h4>
-                    <a href="" target="_blank">Clique aqui para saber mais</a><br>
-                    <a href="" target="_blank">Política De Privacidade</a>
-                </div>
-            </div>
+      <div class="footer-container">
+        <div class="div-footer-01">
+          <div>
+            <h2 class="h2-footer-01">E-commerce</h2>
+            <p>Av. ######### <br /></p>
+            <p>Edifício $$$$$$$</p>
+            <p>Cep 78954-00& <br /></p>
+          </div>
         </div>
-        <div class="div-footer-03">
-            <div>
-                <a href="http://" alt="contato@ecommerce.com.br">contato@ecommerce.com.br</a>
-            </div>
+        <div class="div-footer-02">
+          <div>
+            <h4>Sobre Nós</h4>
+            <a href="" target="_blank">Clique aqui para saber mais</a><br />
+            <a href="" target="_blank">Política De Privacidade</a>
+          </div>
         </div>
+      </div>
+      <div class="div-footer-03">
+        <div>
+          <a href="http://" alt="contato@ecommerce.com.br"
+            >contato@ecommerce.com.br</a
+          >
+        </div>
+      </div>
     </footer>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
