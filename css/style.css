@@ -97,3 +97,24 @@
 .h2-footer-01 {
     font-size: 15px;
 }
+.btn-card{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 33px;
+    padding: 7px 49px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;  
+} 
