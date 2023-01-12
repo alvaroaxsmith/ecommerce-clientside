@@ -1,3 +1,27 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+ }
+ 
+.header-input-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-input-button input {
+  margin-top: 2vh;
+  width: 32vh;
+  margin-left: 4vh;
+  border-radius: 7px ;
+}
+
+.header-input-button button {
+  width:4vh;
+  border-radius: 7px ;
+}
+
 .toolbar{
     display: flex;
     align-items: center;
@@ -5,6 +29,7 @@
     background-color: var(--secondary-color);
     gap: 0.1rem;
     padding: 0.2rem;
+    margin:20px 0 ;
 }
 
 .toolbar>button{
@@ -70,6 +95,32 @@
     height: auto;
 }
 
+main{
+    margin-bottom: 20px;
+}
+
+.btn-card{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 33px;
+    padding: 7px 49px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;  
+} 
+
 .footer-container {
     display: flex;
     align-content: center;
@@ -97,24 +148,3 @@
 .h2-footer-01 {
     font-size: 15px;
 }
-.btn-card{
-    background-color: black;
-    color: white;
-    width: 180px;
-    height: 33px;
-    padding: 7px 49px;
-}
-.cards-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    gap:10px;
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 180px;  
-} 
