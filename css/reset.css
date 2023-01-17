@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+/* font-size rules*/
+body *,
+body *::before,
+body *::after {
+  font-size: 1em;
+}
+
+html{
+  font-size: 62.5%;
+}
+
 /* Remove default border */
 fieldset {
   border: 0;
