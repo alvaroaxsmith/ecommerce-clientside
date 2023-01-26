@@ -40,7 +40,26 @@
               <img src="./assets/icons/close-icon.svg" alt="X" />
             </button>
           </header>
-          <p>here options</p>
+            <div class="preco-container">
+              <div class="preco-checkbox">
+              <label for="precos">PREÇOS</label>
+              <input type="checkbox" name="preco" id="precos">
+              </div>
+              <div id="div-precos" class="padrao">
+              <label for="preco1">Até R$50,00</label>
+              <input type="checkbox" name="preco" id="preco1"><br>
+              <label for="preco2">Até R$51,00 até R$150,00</label>
+              <input type="checkbox" name="preco" id="preco2"><br>
+              <label for="preco3">Até R$151,00 até R$300,00</label>
+              <input type="checkbox" name="preco" id="preco3"><br>
+              <label for="preco4">Até R$301,00 até R$500,00</label>
+              <input type="checkbox" name="preco" id="preco4"><br>
+              <label for="preco4">a partir de R$500,00</label>
+              <input type="checkbox" name="preco" id="preco5"><br>
+              </div>
+            </div>
+            <label for="filtro-tamanho">Tamanho</label>
+            <input type="checkbox" class="filtro-tamanho"><br>
           <button disabled="disabled" type="submit">Aplicar</button>
         </fieldset>
         <fieldset id="order" class="modal inactive">
@@ -54,8 +73,8 @@
           <button disabled="disabled" type="submit">Aplicar</button>
         </fieldset>
       </aside>
-      <div class="cards-container">
-        <div class="card">
+      <div class="cards-container" id="produtos">
+        <!-- <div class="card">
           <img src="assets/img/img_3.png" />
           <p>SAIA EM COURO</p>
           <p><b>$ 398,00</b></p>
@@ -106,7 +125,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer>  -->
       <div class="footer-container">
         <div class="div-footer-01">
           <div>
@@ -127,11 +146,13 @@
       <div class="div-footer-03">
         <div>
           <a href="http://" alt="contato@ecommerce.com.br"
-            >contato@ecommerce.com.br</a
-          >
+            >contato@ecommerce.com.br</a>
         </div>
       </div>
     </footer>
-    <script src="./script.js"></script>
-  </body>
+    <script src="src/index.js"></script>
+    <script src="src/forEachMethod.js"></script>
+    <script src="src/filterMethod.js"></script>
+    <script src="src/events.js"></script>
+    </body>
 </html>

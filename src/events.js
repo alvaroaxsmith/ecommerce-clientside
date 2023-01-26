@@ -10,3 +10,18 @@ function toggleFilter (event){
 function toggleOrder (event){
     document.getElementById('order').classList.toggle('inactive')
 }
+
+
+let precos = document.getElementById('precos').addEventListener('click', (evento) => {
+    mostrarPrecos(evento)
+})
+
+function mostrarPrecos(evento) {
+    if (evento.target.checked == false) { 
+        document.getElementById('div-precos').classList.add('padrao')  
+    } else if (evento.target.checked == true) {
+        document.getElementById('div-precos').classList.remove('padrao')    
+    } else {
+
+    }
+}

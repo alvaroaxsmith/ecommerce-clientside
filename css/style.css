@@ -148,3 +148,7 @@ main{
 .h2-footer-01 {
     font-size: 15px;
 }
+
+.padrao {
+    display: none;
+}
